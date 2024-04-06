@@ -1,0 +1,21 @@
+.forecast-list table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+.forecast-list th, .forecast-list td {
+    text-align: left;
+    padding: 8px; 
+}
+
+.filter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-controls input[type="range"] {
+    width: 200px; 
+}

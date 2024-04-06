@@ -1,0 +1,32 @@
+.city-weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px; 
+}
+
+.city-weather-main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+.city-weather-sub-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.weather-sub-card {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+}
